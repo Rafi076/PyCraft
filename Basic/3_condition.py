@@ -73,10 +73,10 @@ else:
     
 # in Loop seacial
 color = ["red","green","blue","Yellow"]
-#for color in color:
-    #print(color.center(50))
-    #for i in color:
-     #print(i.center(50))
+for color in color:
+    print(color.center(50))
+    for i in color:
+     print(i.center(50))
      
      
      
