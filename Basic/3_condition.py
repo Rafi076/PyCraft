@@ -81,10 +81,12 @@ for color in color:
      
      
 # range printing in loop
-# for i in range(2,10): 
-#     print(i,end=' ')
-    
-    
+for i in range(2,10): 
+    print(i,end=' ')
+
+print('\n\n')
+
+
 # to print 1 to 15 incrementing 2
 for k in range(1,15,2):
     if k%2!=0:
@@ -111,11 +113,11 @@ for k in range(1,15,2):
 # Example:
 # python
 # code
+
 x = 10
 y = 5
-
 if x > y:
-    print("x is greater than y")
+    print("\nx is greater than y")
 
 
 # 2. Logical Operators
@@ -128,9 +130,9 @@ if x > y:
 # Example:
 # python
 # Copy code
+
 x = 5
 y = 10
-
 if x > 0 and y > 0:
     print("Both numbers are positive")
 
@@ -143,6 +145,7 @@ if x > 0 and y > 0:
 # Example:
 # python
 # Copy code
+
 x = 7
 if x > 10: print("x is greater than 10")
 elif x == 7: print("x is 7")
@@ -151,11 +154,11 @@ else: print("x is less than 10 and not 7")
 
 
 
-# 4. Ternary Operator (Conditional Expressions)
+# 4. Ternary Operator (Conditional Expressions)***********************************
 # Python supports a shorthand if-else called the ternary operator.
 
 # Syntax:
-result = value_if_true if condition else value_if_false
+# result = value_if_true if condition else value_if_false
 
 # Example:
 age = 20
@@ -198,9 +201,9 @@ if "banana" in fruits:
 # Example:
 # python
 # Copy code
+
 a = [1, 2, 3]
 b = a
-
 if a is b:
     print("a and b refer to the same object")
 
@@ -214,9 +217,9 @@ if a is b:
 # Complete Example:
 # python
 # Copy code
+
 x = 20
 y = 15
-
 if x > y:
     print(f"{x} is greater than {y}")
 elif x == y:
