@@ -7,6 +7,21 @@ A_sets = {18,"rafi",12,18}
 for i in A_sets:
     print(i,end=' ') # 18 12 rafi
 
+# key & value in set
+student = {
+    "name" : "Rafi",
+    "course": "Python",
+    "Batch" : 1,
+    "is_valid" : True,
+}
+print(student.get("is_valid", False))
+
+for key, value in student.items():
+    print("Key :", key  ,"vlaue :", value)
+
+
+
+
 
 
 rafi = {} # it refer empty dictionary not empty set

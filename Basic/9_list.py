@@ -1,3 +1,24 @@
+#  rest of the item in set
+bazarer_list = [
+    "chini",
+    "lobon",
+    "Morich",
+    "ada",
+    "Darchini",
+]
+
+first_item, secound_itemm, *rest_of_the_item = bazarer_list
+print(first_item)
+print(secound_itemm),
+print(rest_of_the_item)
+# output: 
+# chini
+# lobon
+# ['Morich', 'ada', 'Darchini']
+
+
+
+
 # to find the specific item from the list 
 color = ["green","red","white","blue","black","purpale"]
 for i in range(len(color)):
