@@ -5,6 +5,7 @@
 # The while loop in Python continues to execute a block of code as long as the condition remains True. It is useful when the number of iterations isn't fixed.
 
 # Syntax:
+# initialize
 # while condition:
 #     # Block of code
 #     # Update condition

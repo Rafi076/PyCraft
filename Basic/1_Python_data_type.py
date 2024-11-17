@@ -17,5 +17,15 @@ print(list1)
 tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger")) #tuple data type
 print(tuple1)
 
-dict1 = {"name":"Sakshi\n", "age":20, "\ncanVote":True} #mapped data type
+dict1 = {"name":"Sakshi\n", "age":20, "\ncanVote":True} #Dictonary data type
 print(dict1)
+
+
+
+# # prompt: is list , tuple, set  .. mutsble,order, duplicte allow?
+
+# | Feature       | List      | Tuple     | Set       |
+# |---------------|-----------|-----------|-----------|
+# | Mutable       | Yes       | No        | Yes       |
+# | Ordered       | Yes       | Yes       | No        |
+# | Duplicates    | Yes       | Yes       | No        |
